@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dc41fd1-6805-47a3-9aee-1be5654bf7a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/exercise-security-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/exercise-security-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/model/BaseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/model/BaseUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/controller/UserCotrollerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/controller/UserCotrollerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/filter/TimeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/filter/TimeFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-security-demo/target/test-classes/com/company/controller/UserCotrollerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/target/test-classes/com/company/controller/UserCotrollerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="2dc41fd1-6805-47a3-9aee-1be5654bf7a1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/exercise-core/target/" />
@@ -41,9 +13,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="99" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -60,15 +29,16 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="51" column="35" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="35" />
+            <state relative-caret-position="418">
+              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,22 +47,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/model/BaseUser.java">
+        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/exception/UserNotExistException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/MockQueue.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/filter/TimeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,58 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/config/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/DemoApplicationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/1590213968988.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/FileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,10 +82,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="1056">
+              <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/exception/ControllerExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/http/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,17 +130,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java" />
         <option value="$PROJECT_DIR$/exercise-core/src/test/java/com/company/AppTest.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -203,9 +141,11 @@
         <option value="$PROJECT_DIR$/exercise-security-app/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/controller.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/DemoApplicationTest.java" />
+        <option value="$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/controller/UserCotrollerTest.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/resources/generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/exercise-core/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/http/Result.java" />
+        <option value="$PROJECT_DIR$/exercise-security-demo/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/dao/BaseUserMapper.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/vo/UserConditionPageParam.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/resources/mapper/BaseUserMapper.xml" />
@@ -213,27 +153,17 @@
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/service/UserService.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/vo/PageParam.java" />
+        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/UserController.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/validator/MyConstraint.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/validator/MyConstraintValidator.java" />
+        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/model/BaseUser.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/resources/resources/error/404.html" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/resources/resources/error/500.html" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/exception/ControllerExceptionHandler.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/exception/UserNotExistException.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/filter/TimeFilter.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/aspect/TimeAspect.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/vo/FileInfo.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/controller/UserCotrollerTest.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/DeferredResultHolder.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/AsyncController.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/QueueListener.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/MockQueue.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/model/BaseUser.java" />
+        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java" />
       </list>
     </option>
   </component>
@@ -258,11 +188,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="exercise-security-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="exercise-security-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -275,19 +200,17 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-97" />
-    <option name="width" value="1154" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2133" />
+    <option name="y" value="92" />
+    <option name="width" value="1554" />
+    <option name="height" value="840" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,28 +272,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -409,10 +310,42 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="error" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.30" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.30" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-9.0.30.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.30" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-9.0.30.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.30" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-9.0.30.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,88 +390,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserCotrollerTest.whenUploadSuccess">
-    <configuration name="UserCotrollerTest.whenUploadSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exercise-security-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.company.controller.UserCotrollerTest" />
-      <option name="METHOD_NAME" value="whenUploadSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserCotrollerTest.whenUploadSucess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exercise-security-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.company.controller.UserCotrollerTest" />
-      <option name="METHOD_NAME" value="whenUploadSucess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gen" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="mybatis-generator:generate" />
-                <option value="-e" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="exercise-security-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <list>
       <item itemvalue="Maven.gen" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="JUnit.UserCotrollerTest.whenUploadSucess" />
-      <item itemvalue="JUnit.UserCotrollerTest.whenUploadSuccess" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserCotrollerTest.whenUploadSuccess" />
-        <item itemvalue="JUnit.UserCotrollerTest.whenUploadSucess" />
         <item itemvalue="Spring Boot.DemoApplication" />
       </list>
     </recent_temporary>
@@ -557,38 +415,18 @@
       <workItem from="1590025371814" duration="34026000" />
       <workItem from="1590119341415" duration="2771000" />
       <workItem from="1590130459515" duration="115000" />
-      <workItem from="1590200420877" duration="12794000" />
+      <workItem from="1590200420877" duration="466000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="UserCotrollerTest_whenUploadSucess - 2020.05.23 at 13h 53m 16s.xml">
-      <configuration name="UserCotrollerTest.whenUploadSucess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserCotrollerTest_whenUploadSuccess - 2020.05.23 at 13h 53m 24s.xml">
-      <configuration name="UserCotrollerTest.whenUploadSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserCotrollerTest_whenUploadSuccess - 2020.05.23 at 14h 04m 31s.xml">
-      <configuration name="UserCotrollerTest.whenUploadSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserCotrollerTest_whenUploadSuccess - 2020.05.23 at 14h 04m 43s.xml">
-      <configuration name="UserCotrollerTest.whenUploadSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserCotrollerTest_whenUploadSuccess - 2020.05.23 at 14h 05m 51s.xml">
-      <configuration name="UserCotrollerTest.whenUploadSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserCotrollerTest_whenUploadSuccess - 2020.05.23 at 14h 06m 09s.xml">
-      <configuration name="UserCotrollerTest.whenUploadSuccess" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50672000" />
+    <option name="totallyTimeSpent" value="38344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-77" y="0" width="923" height="830" extended-state="0" />
+    <frame x="2726" y="164" width="1243" height="672" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29704642" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2662722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -598,20 +436,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.20679887" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.14899713" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.20792079" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.115983024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.48231965" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.59490085" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.17225201" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.5954738" />
       <window_info anchor="right" id="Maven" order="0" weight="0.29490617" />
       <window_info anchor="right" id="Bean Validation" order="1" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -630,11 +467,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/exercise_project_01$UserCotrollerTest_whenUploadSuccess.ic" NAME="UserCotrollerTest.whenUploadSuccess Coverage Results" MODIFIED="1590213862251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.company.controller.*</FILTER>
-    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/exercise-browser/exercise-security-browser.iml">
@@ -663,10 +495,31 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8e8bd965-5520-4890-8690-8d17b53f002a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-browser/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1082">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -678,6 +531,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/controller.java" />
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/DemoApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/controller/UserCotrollerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/resources/generator/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -730,6 +603,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -806,6 +686,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/model/BaseUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/resources/resources/error/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -841,10 +731,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/exception/UserNotExistException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,183 +792,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/filter/TimeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/aspect/TimeAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../local/repository_idea/org/apache/tomcat/embed/tomcat-embed-core/9.0.30/tomcat-embed-core-9.0.30.jar!/org/apache/tomcat/jni/FileInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/vo/FileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/controller/UserCotrollerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-582">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/AsyncController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/QueueListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/DeferredResultHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/test/java/com/company/DemoApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/1590213968988.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/MockQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/model/BaseUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="35" />
+        <state relative-caret-position="22">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
