@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import java.util.ArrayList;
@@ -25,15 +25,7 @@ import java.util.List;
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
 
-	/*拦截器除了@Component外，还要注册到interceptor中*/
-
-	@Autowired
-	private TimeInterceptor timeInterceptor;
-
-	@Override
-	public void addInterceptors(InterceptorRegistry registry) {
-		registry.addInterceptor(timeInterceptor);
-	}
+	/*1.过滤器的第2种配置方式*/
 
 	@Bean
 	public FilterRegistrationBean timeFilter(){
@@ -49,4 +41,31 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
 		return registrationBean;
 	}
+
+	/*2. 拦截器除了@Component外，还要注册到interceptor中*/
+
+	@Autowired
+	private TimeInterceptor timeInterceptor;
+
+	@Override
+	public void addInterceptors(InterceptorRegistry registry) {
+
+		registry.addInterceptor(timeInterceptor);
+	}
+
+	/*3. 异步的配置支持：配置interceptor拦截器*/
+
+	@Override
+	public void configureAsyncSupport(AsyncSupportConfigurer configurer) {
+		//1.注册拦截器
+//		configurer.registerDeferredResultInterceptors(intercepter);
+//		configurer.registerCallableInterceptors(interceptor);
+
+		//2.还可以设置异步请求的超时时间
+		configurer.setDefaultTimeout(10000);
+
+		//3.spring默认的异步线程池，这里可以配置自定义的线程池
+//		configurer.setTaskExecutor(taskExecutor);
+	}
+
 }

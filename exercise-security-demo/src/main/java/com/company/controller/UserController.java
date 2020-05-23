@@ -5,6 +5,8 @@ import com.company.service.UserService;
 import com.company.http.Result;
 import com.company.vo.UserConditionPageParam;
 import com.github.pagehelper.PageInfo;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
@@ -26,6 +28,7 @@ public class UserController {
 	private UserService userService;
 
 	@PostMapping("/add")
+	@ApiOperation(value = "新增用户")
 	public Result add(@Valid @RequestBody BaseUser baseUser, BindingResult errors) {
 		//打印valid规则校验中的错误信息。
 		if (errors.hasErrors()) {
@@ -45,7 +48,8 @@ public class UserController {
 	}
 
 	@GetMapping("/invalid/{id}")
-	public Result invalid(@PathVariable("id") Long id) {
+	@ApiOperation(value = "删除用户")
+	public Result invalid(@ApiParam("用户id") @PathVariable("id") Long id) {
 		try {
 			int data = userService.invalid(id);
 			return Result.ok(data);
@@ -56,6 +60,7 @@ public class UserController {
 	}
 
 	@PostMapping("/edit")
+	@ApiOperation(value = "编辑用户")
 	public Result edit(@Valid @RequestBody BaseUser baseUser, BindingResult errors) {
 		if (errors.hasErrors()) {
 			errors.getAllErrors().stream().forEach(error -> {
@@ -74,6 +79,7 @@ public class UserController {
 	}
 
 	@PostMapping("/list/condition")
+	@ApiOperation(value = "查询用户")
 	public Result list(@RequestBody UserConditionPageParam pageParam) {
 		if (pageParam.getNum() == null || pageParam.getSize() == null) {
 			return Result.error("查询失败,分页参数有误");
