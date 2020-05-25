@@ -28,8 +28,10 @@ public class TimeInterceptor implements HandlerInterceptor {
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 		log.info("preHandle");
 
-		log.info(((HandlerMethod)handler).getBean().getClass().getName());
-		log.info(((HandlerMethod)handler).getMethod().getName());
+		if(handler instanceof HandlerMethod){
+			log.info("待处理的的类名："+((HandlerMethod)handler).getBean().getClass().getName());
+			log.info("待处理方法名："+((HandlerMethod)handler).getMethod().getName());
+		}
 
 		request.setAttribute("startTime",System.currentTimeMillis());
 		//如果返回false，后面的controller方法就不执行。

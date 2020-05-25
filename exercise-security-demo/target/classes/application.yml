@@ -17,3 +17,6 @@ server:
 #  basic:
 #    关闭security
 #    enabled: false
+
+
+#cp.security.browser.loginPage: /demo-signIn.html
