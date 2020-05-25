@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dc41fd1-6805-47a3-9aee-1be5654bf7a1" name="Default Changelist" comment="" />
+    <list default="true" id="2dc41fd1-6805-47a3-9aee-1be5654bf7a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exercise-browser/src/main/java/com/company/security/browser/BrowserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-browser/src/main/java/com/company/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-browser/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-browser/src/test/java/com/company/BrowserApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-browser/target/classes/com/company/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-browser/target/test-classes/com/company/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-security-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-security-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/model/BaseUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-security-demo/target/classes/com/company/model/BaseUser.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/exercise-core/target/" />
@@ -29,67 +43,27 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/exercise-browser/src/main/java/com/company/security/browser/BrowserApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="176">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/exception/UserNotExistException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/filter/TimeFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/aspect/TimeAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/QueueListener.java">
+        <entry file="file://$PROJECT_DIR$/exercise-browser/src/main/java/com/company/security/browser/config/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/config/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="278">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,40 +72,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java">
+        <entry file="jar://$PROJECT_DIR$/../../../local/repository_idea/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2442">
+              <caret line="165" column="5" selection-start-line="162" selection-start-column="4" selection-end-line="165" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/exception/ControllerExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="198">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/http/Result.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +116,6 @@
       <list>
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java" />
         <option value="$PROJECT_DIR$/exercise-core/src/test/java/com/company/AppTest.java" />
-        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-browser/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-security-app/pom.xml" />
@@ -190,6 +144,10 @@
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/filter/TimeFilter.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java" />
+        <option value="$PROJECT_DIR$/exercise-security-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/exercise-browser/src/main/java/com/company/BrowserApplication.java" />
+        <option value="$PROJECT_DIR$/exercise-browser/src/main/java/com/company/security/browser/BrowserApplication.java" />
+        <option value="$PROJECT_DIR$/exercise-browser/src/main/java/com/company/security/browser/config/BrowserSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -212,6 +170,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="exercise-security-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="exercise-security-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="exercise-security-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
@@ -227,17 +194,16 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,6 +211,79 @@
             <path>
               <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-browser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise-project-01" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercise-project-01" type="b2602c69:ProjectViewProjectNode" />
@@ -295,6 +334,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,7 +384,7 @@
       <module name="exercise-security-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.security.browser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,16 +415,17 @@
       <workItem from="1590130459515" duration="115000" />
       <workItem from="1590200420877" duration="466000" />
       <workItem from="1590224449250" duration="713000" />
+      <workItem from="1590390044046" duration="605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39808000" />
+    <option name="totallyTimeSpent" value="42751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2660858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,9 +434,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.20792079" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.115983024" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.17988668" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -406,8 +447,8 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.4815864" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.5954738" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.29490617" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.59490085" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.37064344" />
       <window_info anchor="right" id="Bean Validation" order="1" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -440,7 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-browser/src/test/java/com/company/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/exercise-browser/src/test/java/com/company/BrowserApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="22" />
@@ -453,31 +494,10 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8e8bd965-5520-4890-8690-8d17b53f002a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-browser/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1082">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -516,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../local/repository_idea/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar!/org/springframework/http/HttpStatus.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -547,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="252" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="252" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -561,13 +567,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -716,16 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/exception/ControllerExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -769,8 +758,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/async/QueueListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="581">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../local/repository_idea/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="548" column="6" selection-start-line="548" selection-start-column="6" selection-end-line="548" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/interceptor/TimeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-browser/src/main/java/com/company/security/browser/BrowserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../local/repository_idea/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="165" column="5" selection-start-line="162" selection-start-column="4" selection-end-line="165" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-security-demo/src/main/java/com/company/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-browser/src/main/java/com/company/security/browser/config/BrowserSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
