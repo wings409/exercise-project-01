@@ -11,8 +11,23 @@ import lombok.Data;
  **/
 @Data
 public class BrowserProperties {
+
+	private SessionProperties session = new SessionProperties();
+
+
+	private String signUpUrl = "/signUp.html";
+
 	/**
 	 *  默认的登录页面为browser上的登录页面
 	 **/
-	private String loginPage = "/sign-in.html";
+	private String loginPage = SecurityConstants.DEFAULT_LOGIN_PAGE_URL;
+
+	/**
+	 *  默认的登录响应类型为json
+	 **/
+
+	private LoginResponseType loginType = LoginResponseType.JSON;
+
+
+	private int rememberMeSeconds = 3600;
 }

@@ -1,6 +1,7 @@
 package com.company.security.browser.controller;
 
 import com.company.security.browser.support.SimpleResponse;
+import com.company.security.core.properties.SecurityConstants;
 import com.company.security.core.properties.SecurityProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
@@ -51,7 +52,7 @@ public class BrowserSecurityController {
 	 * @param response:
 	 * @return: java.lang.String
 	 **/
-	@RequestMapping("/authentication/require")
+	@RequestMapping(SecurityConstants.DEFAULT_UNAUTHENTICATION_URL)
 	@ResponseStatus(code = HttpStatus.UNAUTHORIZED)
 	public SimpleResponse requireAuthentication(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		//1.拿到之前跳转前的request请求，方便判断之前是html还是数据请求。

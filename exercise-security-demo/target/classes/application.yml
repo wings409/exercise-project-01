@@ -13,6 +13,12 @@ spring:
 server:
   port: 8060
 
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.company.model
+
 #security:
 #  basic:
 #    关闭security
@@ -20,3 +26,10 @@ server:
 
 
 #cp.security.browser.loginPage: /demo-signIn.html
+#cp.security.browser.loginType: REDIRECT
+
+#cp.security.code.image.length: 6
+#cp.security.code.image.width: 100
+#cp.security.code.image.url: /user/*
+
+cp.security.browser.signUpUrl: /demo-signUp.html

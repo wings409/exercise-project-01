@@ -197,12 +197,18 @@
     select
     <include refid="Base_Column_List" />
     from t_base_user
-    and enable = 1
+    where enable = 1
     <if test="userName !=null and userName != ''">
       and user_name = #{userName,jdbcType=VARCHAR}
     </if>
     <if test="sex !=null and sex != ''">
       and sex = #{sex,jdbcType=VARCHAR}
     </if>
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_base_user
+    where enable = 1
   </select>
 </mapper>

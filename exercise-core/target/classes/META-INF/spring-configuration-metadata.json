@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "cp.security",
+      "type": "com.company.security.core.properties.SessionProperties",
+      "sourceType": "com.company.security.core.properties.SessionProperties"
+    },
+    {
+      "name": "cp.security",
+      "type": "com.company.security.core.properties.SecurityProperties",
+      "sourceType": "com.company.security.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cp.security.browser",
+      "type": "com.company.security.core.properties.BrowserProperties",
+      "sourceType": "com.company.security.core.properties.SecurityProperties"
+    },
+    {
+      "name": "cp.security.max-sessions-prevents-login",
+      "type": "java.lang.Boolean",
+      "description": "达到最大session时是否阻止新的登录请求，默认为false，不阻止，新的登录会将老的登录失效掉",
+      "sourceType": "com.company.security.core.properties.SessionProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "cp.security.maximum-sessions",
+      "type": "java.lang.Integer",
+      "description": "同一个用户在系统中的最大session数，默认1",
+      "sourceType": "com.company.security.core.properties.SessionProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "cp.security.session-invalid-url",
+      "type": "java.lang.String",
+      "description": "session失效时跳转的地址",
+      "sourceType": "com.company.security.core.properties.SessionProperties"
+    }
+  ],
+  "hints": []
+}

@@ -17,4 +17,7 @@ public interface UserService {
 	int edit(BaseUser baseUser);
 
 	List<BaseUser> list(PageParam pageParam);
+
+	List<BaseUser> listAll();
+
 }

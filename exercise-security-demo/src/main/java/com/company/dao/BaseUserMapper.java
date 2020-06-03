@@ -26,4 +26,6 @@ public interface BaseUserMapper {
 
     List<BaseUser> selectListByParam(PageParam pageParam);
 
+	List<BaseUser> selectAll();
+
 }

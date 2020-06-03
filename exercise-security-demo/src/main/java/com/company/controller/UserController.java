@@ -9,6 +9,10 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
@@ -26,6 +30,23 @@ import java.util.List;
 public class UserController {
 	@Autowired
 	private UserService userService;
+
+	@GetMapping("/me/authentication")
+	//节省代码，在方法上可以直接写Authentication，如下
+//	public Object getCurrentUser(){
+//		return SecurityContextHolder.getContext().getAuthentication();
+//	}
+	public Object getCurrentUserAuthentication(Authentication authentication){
+		//SpringMVC 会自动给Authentication对象 在SecurityContextHolder里面找。
+		return authentication;
+	}
+
+	//还可以直接拿到UserDetails
+	@GetMapping("/me/details")
+	public Object getCurrentUserDetails(@AuthenticationPrincipal UserDetails user){
+		//SpringMVC 会自动给Authentication对象 在SecurityContextHolder里面找。
+		return user;
+	}
 
 	@PostMapping("/add")
 	@ApiOperation(value = "新增用户")
@@ -87,6 +108,18 @@ public class UserController {
 		try {
 			List<BaseUser> userList = userService.list(pageParam);
 			PageInfo<BaseUser> data = new PageInfo<>(userList);
+			return Result.ok(data);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return Result.error("查询失败：" + e.getMessage());
+		}
+	}
+
+	@GetMapping("/list/all")
+	@ApiOperation(value = "查询所有用户")
+	public Result listAll() {
+		try {
+			List<BaseUser> data = userService.listAll();
 			return Result.ok(data);
 		} catch (Exception e) {
 			e.printStackTrace();

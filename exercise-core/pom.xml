@@ -63,6 +63,13 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+        <!--解决 springboot configuration annotation processor not found in classpath问题 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <!--spring social 第三方登录：qq，微信-->
         <!-- https://mvnrepository.com/artifact/org.springframework.social/spring-social-config -->
         <dependency>

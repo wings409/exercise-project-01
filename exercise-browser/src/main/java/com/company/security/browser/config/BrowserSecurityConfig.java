@@ -26,8 +26,10 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		//使用表单login,对应过滤器：Username Password Authentication Filter
 		http.formLogin()
+				//
 				.loginPage("/authentication/require")
-				//将上述定义的页面sign-in替换掉SpringSecurity默认的表单action：/login post
+//				.loginPage("/signIn.html")
+				//登录表单跳转的路径，用上述定义的页面signIn替换掉SpringSecurity默认的表单action：/login post
 				.loginProcessingUrl("/authentication/form")
 		//使用basic页面弹窗登录,对应过滤器：Basic Authentication Filter
 //		http.httpBasic()
@@ -35,6 +37,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 				//请求
 			.authorizeRequests()
 				//添加匹配器，该网页不需要认证
+//				.antMatchers("/signIn.html").permitAll()
 				.antMatchers("/authentication/require",
 						securityProperties.getBrowser().getLoginPage()).permitAll()
 				//任何请求
@@ -42,6 +45,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 				//安全认证
 			.authenticated()
 			.and()
+				//关掉跨站请求防护（token校验功能）
 			.csrf().disable();
 	}
 
