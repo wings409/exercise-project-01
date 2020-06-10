@@ -10,7 +10,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author zhailiang
  *
  */
-@ConfigurationProperties(prefix = "cp.security")
 @Data
 public class SessionProperties {
 	

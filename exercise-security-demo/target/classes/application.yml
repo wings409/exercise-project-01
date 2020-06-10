@@ -3,11 +3,12 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/exercise_base_01?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
     username: root
-    password: root
+    password: ENC(EwHMQ5z/q1oVkK8y0nJEHQ==)
 
   session:
 #    关闭session
     store-type: none
+
 
 
 server:
@@ -23,7 +24,6 @@ mybatis:
 #  basic:
 #    关闭security
 #    enabled: false
-
 
 #cp.security.browser.loginPage: /demo-signIn.html
 #cp.security.browser.loginType: REDIRECT
