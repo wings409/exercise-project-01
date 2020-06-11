@@ -1,6 +1,8 @@
-package com.company.security.browser.config;
+package com.company.security.browser;
 
+import com.company.security.core.authentication.AbstractChannelSecurityConfig;
 import com.company.security.core.properties.SecurityProperties;
+import com.company.security.core.validate.code.ValidateCodeFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8,6 +10,9 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
  * @ClassName BrowserSecurityConfig
@@ -17,20 +22,32 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  * @Version V1.0
  **/
 @Configuration
-public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
+public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
 
 	@Autowired
 	private SecurityProperties securityProperties;
 
+	private AuthenticationFailureHandler authenticationFailureHandler;
+	private AuthenticationSuccessHandler authenticationSuccessHandler;
+
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		//使用表单login,对应过滤器：Username Password Authentication Filter
-		http.formLogin()
+
+		ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
+		validateCodeFilter.setAuthenticationFailureHandler(authenticationFailureHandler);
+		validateCodeFilter.setSecurityProperties(securityProperties);
+		validateCodeFilter.afterPropertiesSet();
+
+		//将自定义的图形验证码过滤器加到过滤器链中
+		http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
+				//使用表单login,对应过滤器：Username Password Authentication Filter
+				.formLogin()
 				//
 				.loginPage("/authentication/require")
 //				.loginPage("/signIn.html")
 				//登录表单跳转的路径，用上述定义的页面signIn替换掉SpringSecurity默认的表单action：/login post
 				.loginProcessingUrl("/authentication/form")
+
 		//使用basic页面弹窗登录,对应过滤器：Basic Authentication Filter
 //		http.httpBasic()
 			.and()
@@ -39,7 +56,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 				//添加匹配器，该网页不需要认证
 //				.antMatchers("/signIn.html").permitAll()
 				.antMatchers("/authentication/require",
-						securityProperties.getBrowser().getLoginPage()).permitAll()
+						securityProperties.getBrowser().getLoginPage(),
+						"/code/image").permitAll()
 				//任何请求
 			.anyRequest()
 				//安全认证

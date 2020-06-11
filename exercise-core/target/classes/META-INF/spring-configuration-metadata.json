@@ -11,6 +11,11 @@
       "name": "cp.security.browser",
       "type": "com.company.security.core.properties.BrowserProperties",
       "sourceType": "com.company.security.core.properties.SecurityProperties"
+    },
+    {
+      "name": "cp.security.code",
+      "type": "com.company.security.core.properties.ValidateCodeProperties",
+      "sourceType": "com.company.security.core.properties.SecurityProperties"
     }
   ],
   "hints": []

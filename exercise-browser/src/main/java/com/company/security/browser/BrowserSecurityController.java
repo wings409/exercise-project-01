@@ -1,4 +1,4 @@
-package com.company.security.browser.controller;
+package com.company.security.browser;
 
 import com.company.security.browser.support.SimpleResponse;
 import com.company.security.core.properties.SecurityConstants;

@@ -4,7 +4,6 @@
 package com.company.security.core.properties;
 
 import lombok.Data;
-import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * @author zhailiang

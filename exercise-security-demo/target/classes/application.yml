@@ -28,8 +28,10 @@ mybatis:
 #cp.security.browser.loginPage: /demo-signIn.html
 #cp.security.browser.loginType: REDIRECT
 
-#cp.security.code.image.length: 6
-#cp.security.code.image.width: 100
-#cp.security.code.image.url: /user/*
+
+#应用级配置
+cp.security.code.image.length: 6
+cp.security.code.image.width: 100
+cp.security.code.image.url: /user,/user/*
 
 cp.security.browser.signUpUrl: /demo-signUp.html
