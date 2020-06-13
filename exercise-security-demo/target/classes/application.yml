@@ -5,9 +5,9 @@ spring:
     username: root
     password: ENC(EwHMQ5z/q1oVkK8y0nJEHQ==)
 
-  session:
-#    关闭session
-    store-type: none
+#  session:
+##    关闭session
+#    store-type: none
 
 
 

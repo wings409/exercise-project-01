@@ -52,10 +52,10 @@ public class ImageCodeGenerator implements ValidateCodeGenerator {
 		String sRand = "";
 		for (int i = 0; i < securityProperties.getCode().getImage().getLength(); i++) {
 			String rand = String.valueOf(random.nextInt(10));
-			sRand = rand;
+			sRand += rand;
 			g.setColor(new Color(20 + random.nextInt(110), 20 + random.nextInt(110), 20 + random.nextInt(110)));
 			//将4位随机数写到图片上
-			g.drawString(sRand, 13 * i + 6, 16);
+			g.drawString(rand, 13 * i + 6, 16);
 		}
 
 		g.dispose();

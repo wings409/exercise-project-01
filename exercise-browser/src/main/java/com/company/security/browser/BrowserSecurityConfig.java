@@ -57,7 +57,7 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
 //				.antMatchers("/signIn.html").permitAll()
 				.antMatchers("/authentication/require",
 						securityProperties.getBrowser().getLoginPage(),
-						"/code/image").permitAll()
+						"/code/image","/favicon.ico").permitAll()
 				//任何请求
 			.anyRequest()
 				//安全认证

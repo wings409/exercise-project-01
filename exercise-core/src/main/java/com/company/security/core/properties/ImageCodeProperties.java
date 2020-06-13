@@ -25,7 +25,7 @@ public class ImageCodeProperties {
 	private int length = 4;
 
 	@ApiModelProperty("超时时间")
-	private int expireIn = 60;
+	private int expireIn = 600;
 
 	@ApiModelProperty("可配置拦截路径")
 	private String url ;

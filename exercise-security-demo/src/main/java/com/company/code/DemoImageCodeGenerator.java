@@ -8,12 +8,12 @@ import org.springframework.web.context.request.ServletWebRequest;
 
 /**
  * @ClassName DemoImageCodeGenerator
- * @Description: TODO:
+ * @Description: TODO: 自定义验证码生成器，可取代默认验证码生成器
  * @Author qiqinbo
  * @Date 2020/6/11 23:56
  * @Version V1.0
  **/
-@Component("imageCodeGenerator")
+@Component("imageCodeGeneratorA")
 @Slf4j
 public class DemoImageCodeGenerator implements ValidateCodeGenerator {
 
