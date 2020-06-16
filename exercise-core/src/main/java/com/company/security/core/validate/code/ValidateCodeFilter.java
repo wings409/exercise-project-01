@@ -47,8 +47,10 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
 	public void afterPropertiesSet() throws ServletException {
 		super.afterPropertiesSet();
 		String[] configUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(securityProperties.getCode().getImage().getUrl(), ",");
-		for (String configUrl : configUrls) {
-			urls.add(configUrl);
+		if (configUrls != null) {
+			for (String configUrl : configUrls) {
+				urls.add(configUrl);
+			}
 		}
 		//登录一定要校验验证码
 		urls.add("/authentication/form");

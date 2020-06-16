@@ -8,11 +8,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
+import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+
+import javax.sql.DataSource;
 
 /**
  * @ClassName BrowserSecurityConfig
@@ -27,8 +32,24 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
 	@Autowired
 	private SecurityProperties securityProperties;
 
+	@Autowired
 	private AuthenticationFailureHandler authenticationFailureHandler;
+	@Autowired
 	private AuthenticationSuccessHandler authenticationSuccessHandler;
+
+	@Autowired
+	private DataSource dataSource;
+
+	@Autowired
+	private UserDetailsService userDetailsService;
+
+	@Bean
+	public PersistentTokenRepository persistentTokenRepository(){
+		JdbcTokenRepositoryImpl tokenRepository = new JdbcTokenRepositoryImpl();
+		tokenRepository.setDataSource(dataSource);
+		return tokenRepository;
+	}
+
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
@@ -42,12 +63,16 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
 		http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
 				//使用表单login,对应过滤器：Username Password Authentication Filter
 				.formLogin()
-				//
+				// 判断request是html请求还是数据请求，会重定向到index或返回403
 				.loginPage("/authentication/require")
 //				.loginPage("/signIn.html")
 				//登录表单跳转的路径，用上述定义的页面signIn替换掉SpringSecurity默认的表单action：/login post
 				.loginProcessingUrl("/authentication/form")
-
+				.and()
+				.rememberMe()
+				.tokenRepository(persistentTokenRepository())
+				.tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
+				.userDetailsService(userDetailsService)
 		//使用basic页面弹窗登录,对应过滤器：Basic Authentication Filter
 //		http.httpBasic()
 			.and()

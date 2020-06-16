@@ -28,6 +28,6 @@ public class BrowserProperties {
 
 	private LoginResponseType loginType = LoginResponseType.JSON;
 
+	private int rememberMeSeconds = 60*60;
 
-	private int rememberMeSeconds = 3600;
 }

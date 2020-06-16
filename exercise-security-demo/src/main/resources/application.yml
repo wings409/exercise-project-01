@@ -30,8 +30,8 @@ mybatis:
 
 
 #应用级配置
-cp.security.code.image.length: 6
-cp.security.code.image.width: 100
-cp.security.code.image.url: /user,/user/*
+#cp.security.code.image.length: 6
+#cp.security.code.image.width: 100
+#cp.security.code.image.url: /user,/user/*
 
 cp.security.browser.signUpUrl: /demo-signUp.html
